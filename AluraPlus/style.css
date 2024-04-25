@@ -19,4 +19,23 @@ color: var(--branco-principal);
 }
 .container {
     height: 100vh;
+    display: grid;
+        grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+ background-color: var(--botao-azul);
+ border-radius: 5px;
+ padding: 1cm;
+ color: var(--branco-principal);
+ display: block;
+ text-decoration: none;
+
+}
+
+.botao__secundario {
+
+
+
+    
 }
